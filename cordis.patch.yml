@@ -1,0 +1,4 @@
+# 复利计算器
+- insert:
+    - id: dsh-calc-compound
+      name: "@liangjiehappy/dsh-calc-compound"

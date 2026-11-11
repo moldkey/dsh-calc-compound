@@ -1,0 +1,16 @@
+{
+  "name": "@liangjiehappy/dsh-calc-compound",
+  "version": "0.1.0",
+  "description": "算定期投资的复利增长。支持每月追加，可看逐年明细。理财、定投、攒钱时用。纯本地计算，不联网。",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": ["lib", "cordis.patch.yml", "README.md"],
+  "keywords": ["dsh", "dsh-plugin", "calc", "calculator", "compound", "计算器"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moldkey/dsh-calc-compound.git"
+  },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "engines": { "dsh": ">=0.2.0-rc.2" }
+}
